@@ -15,23 +15,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIo-gz-eQM">
-                                <rect key="frame" x="142.5" y="16" width="35" height="30"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Hello"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVM-N5-tfk">
+                                <rect key="frame" x="16" y="16" width="93.5" height="30"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bn0-0t-9kJ">
-                                <rect key="frame" x="129" y="62" width="62" height="30"/>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Goodbye"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbg-hO-dyD">
+                                <rect key="frame" x="210.5" y="16" width="93.5" height="30"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LnV-wY-k0a">
+                                <rect key="frame" x="113.5" y="16" width="93" height="30"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="UIo-gz-eQM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="6rR-YC-qHu"/>
-                            <constraint firstItem="bn0-0t-9kJ" firstAttribute="top" secondItem="UIo-gz-eQM" secondAttribute="bottom" constant="16" id="BjW-bw-rFW"/>
-                            <constraint firstItem="bn0-0t-9kJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="So4-kC-Jlm"/>
-                            <constraint firstItem="UIo-gz-eQM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mRQ-JF-jxM"/>
+                            <constraint firstItem="LnV-wY-k0a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="A0i-UO-ucF"/>
+                            <constraint firstItem="LnV-wY-k0a" firstAttribute="leading" secondItem="XVM-N5-tfk" secondAttribute="trailing" constant="4" id="Abb-bL-Yuh"/>
+                            <constraint firstItem="xbg-hO-dyD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="BPk-1g-tbH"/>
+                            <constraint firstItem="xbg-hO-dyD" firstAttribute="width" secondItem="XVM-N5-tfk" secondAttribute="width" id="QEr-Wp-Uxd"/>
+                            <constraint firstItem="XVM-N5-tfk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="WN1-LD-dby"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xbg-hO-dyD" secondAttribute="trailing" constant="16" id="ZiT-EM-Ywo"/>
+                            <constraint firstItem="LnV-wY-k0a" firstAttribute="width" secondItem="XVM-N5-tfk" secondAttribute="width" id="pHq-8C-ogG"/>
+                            <constraint firstItem="xbg-hO-dyD" firstAttribute="leading" secondItem="LnV-wY-k0a" secondAttribute="trailing" constant="4" id="vJx-MT-Dca"/>
+                            <constraint firstItem="XVM-N5-tfk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="xci-gU-aR4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
