@@ -26,7 +26,7 @@ import UIKit
 // views have implicit width and height based on their content
 // makes our job easier because we can use the implicit width and height constraints
 // demo 2: add alignment constraints for the button to make it centered horizontally and vertically in its container
-// (what is a container view? a view the contains other views)
+// (what is a container view? a view that contains other views)
 
 class ViewController: UIViewController {
 
