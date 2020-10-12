@@ -59,13 +59,25 @@ import UIKit
 // CRP: the higher the CRP the more likely the view will "resist" getting smaller
 // demo:
 
-class ViewController: UIViewController {
+// task: create a 3x3 grid of buttons that equally share the available width and height of the screen
+// wire up all 9 buttons to the same IBAction that simply prints "button pressed" when any of 9 buttons are pressed
 
+class ViewController: UIViewController {
+    @IBOutlet var buttons: [UIButton]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
 
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        print("button pressed")
+        // how do I find out which button was pressed?
+        // 2 ways to do this
+        // 1. use the tag property of UIView
+        print("tag: \(sender.tag)")
+        // 2. use an outlet collection
+    }
 }
 
