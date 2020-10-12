@@ -15,20 +15,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="d8Z-uj-AGf">
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Dk8-3J-Yre">
                                 <rect key="frame" x="16" y="16" width="288" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdx-tL-ipF">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y7l-Bf-Cgv">
                                         <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
                                         <color key="backgroundColor" red="0.30280544679999999" green="0.77784974090000003" blue="0.62294905229999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGo-9X-2pH">
-                                        <rect key="frame" x="50" y="0.0" width="188" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9T-Vb-8P5">
+                                        <rect key="frame" x="56" y="0.0" width="176" height="30"/>
                                         <color key="backgroundColor" red="0.30280544679999999" green="0.77784974090000003" blue="0.62294905229999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlY-f7-wjU">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTb-ng-yH9">
                                         <rect key="frame" x="242" y="0.0" width="46" height="30"/>
                                         <color key="backgroundColor" red="0.30280544679999999" green="0.77784974090000003" blue="0.62294905229999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
@@ -38,9 +38,9 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="d8Z-uj-AGf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="fEj-1Q-sdg"/>
-                            <constraint firstItem="d8Z-uj-AGf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="i3p-p3-54g"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d8Z-uj-AGf" secondAttribute="trailing" constant="16" id="mjW-Dn-ZTs"/>
+                            <constraint firstItem="Dk8-3J-Yre" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="KsE-4N-pzM"/>
+                            <constraint firstItem="Dk8-3J-Yre" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="iic-TT-hih"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dk8-3J-Yre" secondAttribute="trailing" constant="16" id="qjh-Wr-ll1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

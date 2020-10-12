@@ -47,6 +47,17 @@ import UIKit
 // set the stack views leading and trailing constraints to be 16
 // in the attribute inspector for the stack view, set the distribution to fill equally (so we don't have the horizontally ambiguous warning) and set the spacing to 4
 
+// so far, when we have used stack views, we have set the distribution to "fill equally"
+// what if we want one view to take up more space than another view?
+// 2 ways to do this
+// 1. specify a multiplier as part of an equal widths/heights constraint
+// this is done in the calculator lab at the end of ADS 2.10
+// 2. specify the content hugging priority (CHP) and compression resistance priority (CRP)
+// suppose we have two views, and we want one to fill available space (if there is any) and the other to "hug" its intrinsic content size
+// CHP: this is like a rubber band around a view's content
+// the higher the CHP, the more likely the view will hug its content (e.g. keep its intrinsic content size)
+// CRP: the higher the CRP the more likely the view will "resist" getting smaller
+// demo:
 
 class ViewController: UIViewController {
 
