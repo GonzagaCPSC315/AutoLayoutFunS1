@@ -57,7 +57,7 @@ import UIKit
 // CHP: this is like a rubber band around a view's content
 // the higher the CHP, the more likely the view will hug its content (e.g. keep its intrinsic content size)
 // CRP: the higher the CRP the more likely the view will "resist" getting smaller
-// demo:
+// demo: create a horizontal stack view three buttons. Set the horizontal CHP for the middle button to be lower than the other two buttons' CHPs
 
 // task: create a 3x3 grid of buttons that equally share the available width and height of the screen
 // wire up all 9 buttons to the same IBAction that simply prints "button pressed" when any of 9 buttons are pressed
