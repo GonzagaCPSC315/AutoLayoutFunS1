@@ -78,6 +78,9 @@ class ViewController: UIViewController {
         // 1. use the tag property of UIView
         print("tag: \(sender.tag)")
         // 2. use an outlet collection
+        if let senderIndex = buttons.firstIndex(of: sender) {
+            print("senderIndex: \(senderIndex)")
+        }
     }
 }
 
